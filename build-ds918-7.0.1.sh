@@ -27,7 +27,7 @@ cd ..
 # build redpill-load
 cd redpill-load
 cp ${root}/user_config.DS918+.json ./user_config.json
-./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/r8168/rpext-index.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/redpill/rpext-index.json
 ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/redpill-boot-wait/rpext-index.json
 sudo ./build-loader.sh 'DS918+' '7.0.1-42218'
